@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn {
+            background-color: #333;
+            /* Blue background */
+            border: none;
+            /* Remove borders */
+            color: #f2f2f2;
+            /* White text */
+            padding: 14px 16px;
+            /* Some padding */
+            font-size: 16px;
+            /* Set a font size */
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background: #ddd;
+            color: black
+        }
+        
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            width: 100%;
+        }
+        
+        .navbar-a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        .navbar-a:hover {
+            background: #ddd;
+            color: black
+        }
+        
+        #icono {
+            padding-left: 97.6%;
+        }
+        
+        .flex {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #button-carrito {
+            position: fixed;
+            text-align: center
+        }
+    </style>
+</head>
+
+<body style="margin:0">
+    <div class="navbar">
+        <div>
+            <a class="navbar-a" href="./index.html">Inicio</a>
+            <a class="navbar-a" href="comics.php">Comics</a>
+            <a class="navbar-a" href="Noticias/index.html">Coming soon</a>
+            <a class="navbar-a" href="#footer">Contacto</a>
+        </div>
+        <div id="icono">
+            <a href="./index.html"><button id="button-carrito" class="btn"><i class="fas fa-shopping-cart"></i></button></a>
+        </div>
+    </div>
+    <div id="">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </div>
+</body>
+
+</html>
