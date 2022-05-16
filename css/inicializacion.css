@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.fuentebtn {
+    font-family: 'Oswald', sans-serif;
+}
+
 body {
     background: #111;
 }
@@ -132,21 +137,6 @@ body {
 
 /*REDES SOCIALES ICONOS */
 
-
-/*REDES SOCIALES ICONOS */
-
-
-/*REDES SOCIALES ICONOS */
-
-
-/*REDES SOCIALES ICONOS */
-
-
-/*REDES SOCIALES ICONOS */
-
-
-/*REDES SOCIALES ICONOS */
-
 ul {
     display: flex;
     position: absolute;
@@ -222,18 +212,6 @@ ul li:nth-child(4) a:before {
 
 /* Clear floats after the columns */
 
-
-/* Clear floats after the columns */
-
-
-/* Clear floats after the columns */
-
-
-/* Clear floats after the columns */
-
-
-/* Clear floats after the columns */
-
 .row:after {
     content: "";
     display: table;
@@ -242,39 +220,6 @@ ul li:nth-child(4) a:before {
 
 
 /* OTRAS CLASES*/
-
-
-/* OTRAS CLASES*/
-
-
-/* OTRAS CLASES*/
-
-
-/* OTRAS CLASES*/
-
-
-/* OTRAS CLASES*/
-
-
-/* Diseño de columnas */
-
-
-/* Diseño de columnas */
-
-
-/* Diseño de columnas */
-
-
-/* Diseño de columnas */
-
-
-/* Diseño de columnas */
-
-
-/* Diseño de columnas */
-
-
-/* Diseño de columnas */
 
 
 /* Diseño de columnas */
@@ -327,4 +272,11 @@ body {
 
 .center {
     justify-content: center;
+}
+
+
+/*FLOAT*/
+
+.floatR {
+    float: right;
 }

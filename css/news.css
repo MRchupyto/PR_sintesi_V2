@@ -94,6 +94,16 @@ body {
     float: left;
 }
 
+
+/* Otras clases */
+
+.center {
+    text-align: center;
+}
+
+
+/* Header */
+
 #header {
     height: 100vh;
     background-size: cover;
@@ -101,25 +111,448 @@ body {
     background-image: url('../img/11.png');
 }
 
-body {
-    margin: 0;
+
+/*Quines somos?*/
+
+#h2-body {
+    text-align: center;
+}
+
+.padding-p {
+    padding-left: 10%;
 }
 
 
-/* Estilos comics */
+/*Donde Estamos*/
+
+
+/*Barra Fija*/
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black
+}
+
+#mapa {
+    padding-left: 7%;
+}
+
+
+/*Footer*/
+
+#footer {
+    background-color: black;
+    height: 15vh;
+}
+
+.padding-p {
+    padding-left: 15%;
+}
+
+.color-footer {
+    color: white;
+}
+
+#h3-footer {
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-img {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+    transition: 2s;
+}
+
+.footer-img:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+
+/* PAGINA NOTICIAS---------------- */
+
+
+/* HEADER */
+
+#header2 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/11.png);
+}
+
+
+/* Columna 0 */
+
+#prox {
+    text-align: center;
+}
+
+
+/* Columna 1 */
+
+#news1 {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+
+/* Columna 2 */
+
+#news2 {
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+
+/* EDICION IMG */
 
 .imgnews {
     height: 50vh;
     width: 50%;
 }
 
+
+/* EDICION IMG */
+
+#espacaparate {
+    border-width: 10%;
+}
+
 .preorder {
-    background-color: #4CAF50;
-    border: none;
+    background-color: red;
+    border: solid black;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.center {
+    text-align: center;
+}
+
+.paddingix-1 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+/* EDICION IMG */
+
+.ubicacion {
+    padding: 0%;
+}
+
+
+/* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    /* column-2 pasará de tener 50% a 100% */
+    .column-2 {
+        width: 50%;
+    }
+    /* column-3 pasará de tener 33.33% a 100% */
+    .column-3 {
+        width: 33.3%;
+    }
+    /* column-4 pasará de tener 25% a 50% */
+    .column-4 {
+        width: 25%;
+    }
+}
+
+
+/* PARTE 2 */
+
+html {
+    font-size: 16px;
+}
+
+
+/* Redimensión de fuente utilizando rem */
+
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h6 {
+    font-size: 1.05rem;
+}
+
+
+/**************************/
+
+
+/* clases predefinidas */
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Diseño de columnas */
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.column-5 {
+    width: 20%;
+    float: left;
+}
+
+.column-6 {
+    width: 16.66%;
+    float: left;
+}
+
+.column-75 {
+    width: 75%;
+    float: left;
+}
+
+#header2 {
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/111.png');
+}
+
+body {
+    margin: 0;
+}
+
+
+/*Barra Fija*/
+
+.btn {
+    background-color: #333;
+    /* Blue background */
+    border: none;
+    /* Remove borders */
+    color: #f2f2f2;
+    /* White text */
+    padding: 14px 16px;
+    /* Some padding */
+    font-size: 16px;
+    /* Set a font size */
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #ddd;
+    color: black
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-a:hover {
+    background: #ddd;
+    color: black
+}
+
+#icono {
+    padding-left: 97.93%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button-carrito {
+    position: fixed;
+    text-align: center
+}
+
+
+/* Quienes somos */
+
+.aqua {
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+#quiensomos {
+    padding-left: 5%;
+    padding: 10%;
+    padding-right: 10%;
+}
+
+#escaparate {
+    padding: 10%;
+}
+
+
+/* Ubicación */
+
+.red {
+    background: linear-gradient(#9198e5, #e66465);
+    color: black;
+}
+
+#mapa {
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#prat {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+
+/* Footer */
+
+#footer {
+    background-color: black;
+    text-align: center;
+    padding: 1%;
+}
+
+.img {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+    transition: 2s;
+}
+
+.img:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+
+/* Estilos de Materialize carroussell */
+
+.carousel {
+    min-height: 50%;
+}
+
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 50%;
+    height: 50%;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 15px;
+}
+
+.carousel .indicators .indicator-item {
+    border-radius: 0;
+    transform: rotate(45deg);
+    margin: 0 15px;
 }
