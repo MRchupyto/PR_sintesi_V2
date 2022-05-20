@@ -24,6 +24,20 @@
         exit();
     }
 
+        //Verificacion de usuarios : PARA QUE NO SE DUPLIQUEN
+
+    $verificar_usuario = mysqli_query($conexion, "SELECT * FROM usuarios WHERE usuario='$usuario'");
+
+    if(mysqli_num_rows($verificar_usuario) > 0) {
+        echo '
+            <script>
+            alert("Este usuario ya esta en uso")
+            window.location = "registro.php"
+            </script>
+        ';
+        exit();
+    }
+
     $ejecutar = mysqli_query($conexion, $query);
 
     if($ejecutar){
